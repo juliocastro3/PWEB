@@ -1,0 +1,50 @@
+#caixa-magica {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+    height: 1vh;
+}
+
+@media screen and (max-width: 1920px) {
+    #caixa-magica {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #caixa-magica {
+        background-color: rgb(119, 0, 255);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #caixa-magica {
+        background-color: rgb(192, 22, 16);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #caixa-magica {
+        background-color: rgb(201, 61, 206);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #caixa-magica {
+        background-color: orange;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #caixa-magica {
+        background-color: grey;
+    }
+}
