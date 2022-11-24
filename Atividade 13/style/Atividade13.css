@@ -1,0 +1,27 @@
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    position: relative;
+  }
+  fieldset {
+    width: 500px;
+    height: 200px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  input.campo-texto {
+    width: 100%;
+    height: 25px;
+    border: 2px solid rgb(97, 64, 245);
+    border-radius: 5px;
+    margin-left: -4px;
+  }
