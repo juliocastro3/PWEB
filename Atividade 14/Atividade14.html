@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 14</title>
+    <script src="Atividade14.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Formulário Principal</h1>
+        <!--  -->
+
+        <form name="pesquisa" id="pesquisa" onsubmit="validar(event);" >
+            <p><label for="lblNome">Nome<br></label>
+                <input type="text" name="txtNome" id="txtNome">
+            </p>
+            <p><label for="lblEmail">Email<br></label>
+                <input type="txtEmail" name="txtEmail" id="txtEmail">
+            </p>
+            <p><label for="lblComentario">Comentários<br></label>
+                <textarea name="txtComentario" id="txtComentario" cols="30" rows="10"></textarea>
+            </p>
+            <p id="txtPesquisa">Pesquisa</p>
+            <p id="txtpergunta">Primeira vez nesta página??</p>
+            <p>
+                <input type="radio" name="resposta" id="txtSim">Sim 
+                <input type="radio" name="resposta" id="txtNao">Não 
+            </p>
+            <button name="Submit" form="pesquisa" type="submit">Enviar</button>
+            <input name="Reset" type="reset" form="pesquisa" value="Limpar" >
+    
+        </form>  
+
+    </section>
+  
+</body>
+</html>
